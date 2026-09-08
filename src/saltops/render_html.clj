@@ -1,7 +1,7 @@
 (ns saltops.render-html
   "Build-time HTML renderer. Drives the REAL actor stack deterministically.
    Usage: clojure -M:dev:render-html [out-file]."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [saltops.store :as store]
             [saltops.operation :as op]
             [langgraph.graph :as g]))
