@@ -1,5 +1,5 @@
 (ns saltops.advisor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [saltops.advisor :as advisor]
             [saltops.store :as store]))
 
